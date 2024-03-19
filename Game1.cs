@@ -8,6 +8,8 @@ namespace Monogame_Lesson_3___Animation;
 
 public class Game1 : Game
 {
+    // Micha
+
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
