@@ -83,7 +83,7 @@ public class Game1 : Game
         }
         else if (screen == Screen.TribbleYard)
         {
-            if (mouseState.LeftButton == ButtonState.Pressed && prevMouseState.LeftButton == ButtonState.Released)
+            if (mouseState.LeftButton == ButtonState.Released && prevMouseState.LeftButton == ButtonState.Pressed)
             {
                 if (quitRect.Contains(mouseState.Position))
                     Exit();
